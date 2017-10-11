@@ -108,6 +108,6 @@ void loop() {
 //      Serial.print(" avrPerson : ");
       Serial.println(int(avrPerson)); // 실수자료를 정수형으로 바꿔서 블루투스로 송신함  
       sumPerson = 0; // 누적 인원수를 초기화 함  
-      count = 0; 카운트를 초기화 함  
+      count = 0; //  카운트를 초기화 함  
     }
 }
