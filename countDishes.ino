@@ -27,7 +27,7 @@ int person = 0;
 
 float sumPerson = 0; // 사람수 측정값 5회치가 누적되는 변수  
 float avrPerson = 0; // 사람수 측정값 누적치를 누적횟수로 나눠서 나온 평균값  
-int divideVal = 5; //평균값을 뽑기 위해 누적시켜 나누고자 하는 횟수를 입력  
+int divideVal = 5; //평균값을 뽑기 위해 누적시켜 나누고자 하는 횟수를 입력, 오차를 줄이려면 이 수치를 올려주세요.  
 int count = 0; // 누적되는 횟수를 카운트  
 
 float startVal1 = 0;
@@ -108,6 +108,6 @@ void loop() {
 //      Serial.print(" avrPerson : ");
       Serial.println(int(avrPerson)); // 실수자료를 정수형으로 바꿔서 블루투스로 송신함  
       sumPerson = 0; // 누적 인원수를 초기화 함  
-      count = 0; //  카운트를 초기화 함  
+      count = 0; // 카운트를 초기화 함  
     }
 }
